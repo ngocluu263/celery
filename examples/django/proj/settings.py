@@ -6,7 +6,7 @@ from __future__ import absolute_import, unicode_literals
 
 # Celery settings
 
-CELERY_BROKER_URL = 'amqp://guest:guest@localhost//'
+CELERY_BROKER_URL = 'amqp://admin:admin@172.16.4.124//'
 
 #: Only add pickle to this list if your broker is secured
 #: from unwanted access (see userguide/security.html)
