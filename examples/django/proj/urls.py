@@ -6,7 +6,7 @@ from django.conf.urls import * #patterns, include, url, handler404, handler500
 # from django.contrib import admin
 # admin.autodiscover()
 
-urlpatterns =(
+urlpatterns = patterns(
     '',
     # Examples:
     # url(r'^$', 'proj.views.home', name='home'),
