@@ -1,14 +1,12 @@
 from __future__ import absolute_import, unicode_literals
 
-from django.conf.urls import (  # noqa
-    patterns, include, url, handler404, handler500,
-)
+from django.conf.urls import * #patterns, include, url, handler404, handler500
 
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
 # admin.autodiscover()
 
-urlpatterns = patterns(
+urlpatterns =(
     '',
     # Examples:
     # url(r'^$', 'proj.views.home', name='home'),
